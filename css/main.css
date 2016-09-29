@@ -1,0 +1,23 @@
+
+
+#time{
+      color:red; 
+      font-size:70px;
+      text-align:center;
+      margin-top:200px;
+      position: absolute;
+      top: 0; left: 0; bottom: 0; right: 0;  }
+
+
+/*this is for the id one*/
+#one{font-size:70px;}
+
+/*this is for the media query*/
+@media(max-width: 635px){
+#time{
+      
+      font-size:35px;
+      }
+  }
+@media(max-width:635px){
+ #one{font-size:35px;}}
